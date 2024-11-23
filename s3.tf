@@ -5,7 +5,7 @@ provider "aws" {
 
 # Create the S3 bucket for storing Terraform state
 resource "aws_s3_bucket" "tf_state" {
-  bucket        = "your-unique-tf-state-bucket-name" # Replace with a globally unique bucket name
+  bucket        = "your-unique-tf-state-bucket-s3_002" 
   acl           = "private"
   force_destroy = true
 
