@@ -6,7 +6,11 @@ provider "aws" {
 
 # Create the S3 bucket
 resource "aws_s3_bucket" "tf_state" {
+<<<<<<< HEAD
   bucket        = "your-unique-tf-state-bucket-name" # Replace with a unique name
+=======
+  bucket        = "your-unique-tf-state-bucket-s3_002" 
+>>>>>>> 1032ba9c3ce989b3904c0c9971c10fe72bc7059d
   acl           = "private"
   force_destroy = true
 
