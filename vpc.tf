@@ -1,5 +1,3 @@
-
-
 # Create a new VPC
 resource "aws_vpc" "Homework_vpc" {
   cidr_block           = "10.0.0.0/16"
@@ -21,4 +19,3 @@ resource "aws_subnet" "subnet_002" {
     Name = "New-Subnet"
   }
 }
-

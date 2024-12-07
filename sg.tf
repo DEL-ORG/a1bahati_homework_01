@@ -1,6 +1,6 @@
 # Security Group allowing SSH access
-resource "aws_security_group" "ec2_sg02" {
-  name        = "ec2_sg002"
+resource "aws_security_group" "ec2_sg001" {
+  name        = "Homework001_ec2"
   description = "Allow SSH inbound traffic"
   ingress {
     from_port   = 22
